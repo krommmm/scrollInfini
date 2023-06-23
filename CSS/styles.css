@@ -1,0 +1,40 @@
+/* html {
+	background: #2980b9;
+	background: -webkit-linear-gradient(to right, #ffffff, #6dd5fa, #2980b9);
+	background: linear-gradient(to right, #ffffff, #6dd5fa, #2980b9);
+	min-width: 400px;
+	text-align: center;
+} */
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#scrollable-content {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	margin: auto;
+}
+
+.image {
+	width: 200px;
+	height: 250px;
+	margin: 10px;
+}
+.red {
+	background-color: red;
+}
+
+h1{
+	margin: 150px;
+}
